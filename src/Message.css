@@ -1,0 +1,44 @@
+.Message {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center; 
+}
+
+/* .Message-logo {
+  height: 10vmin;
+  pointer-events: none;
+  border-radius: 50%;
+  border: 3px solid olivedrab;
+  box-shadow: 0 0 2px orange;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Message-logo {
+    animation: Message-logo-spin infinite 20s linear;
+  }
+} */
+
+.Message-header {
+  
+  /*min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: olivedrab;
+  text-shadow: orange 1px 1px;
+}
+
+.Message-link {
+  color: olive;
+}
+
+/* @keyframes Message-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
